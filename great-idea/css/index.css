@@ -64,3 +64,221 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ------------------------- */
+/* Start CSS for index.html */
+/* ------------------------- */
+address{
+	margin: 20px 0px;
+}
+a:link{
+	text-decoration: none;
+}
+body{
+	padding:25px;
+	max-width: 876px;
+	margin: 0 auto;
+}
+.content-top{
+	padding: 25px 0px;
+	margin: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	max-width: 876px;
+}
+.con-bot{
+	padding:10px;
+	text-align: left;
+}
+.con-img{
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	padding: 25px 0px;
+}
+.con-top{
+	padding: 10px;
+	text-align: left;
+}
+.con-top-container{
+	padding-top: 20px;
+	margin: 0px -10px;
+	display:flex;
+}
+.con-bot-container{
+	margin: 0px -10px;
+	display:flex;
+}
+#email{
+	color: black;
+}
+#email:hover{
+	color: blue;
+}
+footer{
+	text-align: center;
+	padding: 25px;	
+}
+.gi-img{
+	max-width: 100%;
+	height:auto;
+	margin:0 auto;
+}
+h1{
+	font-size:60px;
+	text-align: center;
+}
+.hero-container{
+	justify-content:center;
+	align-items: center;
+	display:flex;
+	margin-top: 100px;
+	flex-wrap:wrap;
+}
+.hero-button{
+	/* 79px */
+	text-align: center;
+	padding:5px;
+	border: 1px solid black;
+	Margin: 0px 165px 25px 165px;
+}
+.hero-button:hover{
+	background-color: black;
+	color:white;
+	font-weight: 900;
+	border-radius: 5px;
+}
+
+.logo{
+	display:block;
+	padding: 10px;
+}
+nav{
+	text-align:center;
+	background-color: #023683;
+	border-radius: 5px;
+}
+nav a{
+	font-family: 'Kanit', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color:grey;
+	text-align: center;
+}
+nav a:hover{
+	color:white;
+	background-color:grey;
+	border-radius:5px;
+}
+.nav-flex-box{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 876px;
+	padding: 10px;
+}
+.nav-links{
+	padding:10px;
+}
+@media screen and (max-width: 735px) {
+	.hero-container{
+		padding-top: 50px;
+	}
+}
+@media screen and (max-width: 575px) {
+	.con-top-container, .con-bot-container{
+		flex-wrap:wrap;
+	}
+}
+@media screen and (max-width: 385px) {
+	.hero-container{
+		padding-top: 100px;
+	}
+}
+/* ------------------------- */
+/* End CSS for index.html */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Start CSS for services.html */
+/* ------------------------- */
+
+.h1-services{
+	text-align: left;
+	font-size: 30px;
+}
+header{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+.p-learn{
+	border: 1px solid black;
+	padding: 8px 20px;
+	border-radius: 5px;
+	width: 125px;
+	background-color: #FFFBFA;
+}
+.p-service-content{
+	padding-bottom: 25px;
+}
+.sc-flex-pair{
+	display:flex;
+}
+.service-content{
+	padding-bottom: 15px;
+	margin: 0px -15px;
+}
+.service-content-bot{
+	display:flex;
+	border-top: 1px solid black;
+	padding-top: 25px;
+	
+}
+.service-content-bot-flex{
+	padding-right: 25px;
+}
+.service-content-flex{
+	border: 1px solid black;
+	margin: 15px;
+	background-color: #DED9D8;
+	padding: 25px;
+}
+.services-header-img{
+	max-width: 876px;
+	padding: 25px 0px;
+}
+.service-img-bot{
+	padding-left: 25px;
+}
+ul{
+	list-style: square;
+	padding: 15px 0px 0px 18px;
+}
+li{
+	line-height: 30px;
+}
+@media screen and (max-width:750px){
+	.service-content-bot{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.service-content-bot-flex{
+		padding: 0px 0px 15px 0px;
+	}
+	.service-img-bot{
+		padding: 15px 0px 25px 0px;
+	}
+}
+
+@media screen and (max-width:575px){
+	.sc-flex-pair{
+		flex-wrap: wrap;
+}
+
+
+/* ------------------------- */
+/* End CSS for services.html */
+/* ------------------------- */
