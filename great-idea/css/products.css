@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ------------------------- */
+/* Start CSS for products.html */
+/* ------------------------- */
+body{
+    padding: 30px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+footer{
+	text-align: center;
+	padding: 25px;	
+}
+.gi-img{
+	display:block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+	text-align:center;
+	background-color: #023683;
+    border-radius: 5px;
+}
+nav a{
+	font-family: 'Kanit', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color:grey;
+	text-align: center;
+}
+nav a:hover{
+	color:white;
+	background-color:grey;
+	border-radius:5px;
+}
+.nav-flex-box{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+.nav-links{
+	padding:10px;
+}
+.prod-con-img, .prod-con{
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+}
+.prod-flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod-header-con{
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+.prod-header-img{
+    padding: 25px 0px;
+    margin: 0px 15px;
+}
+.prod-price{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 125px;
+}
+.prod-price:hover{
+    background: grey;
+    border-radius: 5px;
+}
+.p-prod{
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 650px){
+    .prod-con-img{
+        display:none;
+    }
+}
